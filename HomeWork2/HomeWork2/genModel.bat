@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold  "Server=LAPTOP-2O29M56R; initial catalog=homework2; Database=homework2; persist security info=True; Trusted_Connection=True; multipleactiveresultsets=True;" Microsoft.EntityFrameworkCore.SqlServer -c DataContext  -o Models -f --no-build --use-database-names --json
